@@ -42,7 +42,7 @@ Desarrollar una plataforma de comercio electrónico especializada en libros, con
 Se usará **Docker** para empaquetar y ejecutar los diferentes componentes del proyecto de manera eficiente:  
 - Crear contenedores individuales para **Nginx**, **WordPress**, y **MariaDB**, asegurando consistencia entre entornos de desarrollo y producción.  
 - Uso de **Dockerfile y Docker-Compose** para orquestar múltiples servicios del proyecto y gestionar la comunicación entre ellos.  
-- **Archivo `.env`:** Se usará para centralizar variables de entorno como credenciales, configuraciones de puertos y rutas de acceso.  
+- **Archivo `.env`** para centralizar variables de entorno como credenciales, configuraciones de puertos y rutas de acceso.  
 - **Beneficios:** Entornos reproducibles, despliegue rápido y aislamiento entre servicios.  
 
 ---
