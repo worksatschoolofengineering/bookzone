@@ -38,11 +38,12 @@ Desarrollar una plataforma de comercio electrónico especializada en libros, con
 - **Pasarelas de Pago:**  
   - **WooCommerce y Strapi:** Implementación de pasarelas para procesar pagos de forma segura y flexible.  
 
-### **Contenedores (Docker)**  
+### **Desarrollo y DevOps (Contenedores Docker):**  
 Se usará **Docker** para empaquetar y ejecutar los diferentes componentes del proyecto de manera eficiente:  
 - Crear contenedores individuales para **Nginx**, **WordPress**, y **MariaDB**, asegurando consistencia entre entornos de desarrollo y producción.  
-- Uso de **Docker Compose** para orquestar múltiples servicios del proyecto y gestionar la comunicación entre ellos.  
-- Beneficios: Entornos reproducibles, despliegue rápido y aislamiento entre servicios.  
+- Uso de **Dockerfile y Docker-Compose** para orquestar múltiples servicios del proyecto y gestionar la comunicación entre ellos.  
+- **Archivo `.env`:** Se usará para centralizar variables de entorno como credenciales, configuraciones de puertos y rutas de acceso.  
+- **Beneficios:** Entornos reproducibles, despliegue rápido y aislamiento entre servicios.  
 
 ---
 
