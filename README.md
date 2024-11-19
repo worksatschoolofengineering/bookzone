@@ -26,7 +26,9 @@ Desarrollar una plataforma de comercio electrónico especializada en libros, con
 - **Redux:** Gestión del estado de la aplicación.  
 
 ### **Backend**  
-- **Servidor:** Nginx para manejar el tráfico y gestionar solicitudes al backend.  
+- **Servidor:**  
+  - **Nginx:** Servidor web principal.  
+  - **Nginx Reverse Proxy:** Manejo de redireccionamientos y configuración de certificados SSL/TLS para una conexión segura.  
 - **Framework Principal:** WordPress Core para la creación de la API y administración de contenido.  
 - **Base de Datos:**  
   - **MariaDB:** Base de datos robusta y escalable.  
@@ -35,6 +37,12 @@ Desarrollar una plataforma de comercio electrónico especializada en libros, con
 - **Herramientas de Administración:** WPCLI para manejar WordPress desde la consola y administrar configuraciones del proyecto.  
 - **Pasarelas de Pago:**  
   - **WooCommerce y Strapi:** Implementación de pasarelas para procesar pagos de forma segura y flexible.  
+
+### **Contenedores (Docker)**  
+Se usará **Docker** para empaquetar y ejecutar los diferentes componentes del proyecto de manera eficiente:  
+- Crear contenedores individuales para **Nginx**, **WordPress**, y **MariaDB**, asegurando consistencia entre entornos de desarrollo y producción.  
+- Uso de **Docker Compose** para orquestar múltiples servicios del proyecto y gestionar la comunicación entre ellos.  
+- Beneficios: Entornos reproducibles, despliegue rápido y aislamiento entre servicios.  
 
 ---
 
