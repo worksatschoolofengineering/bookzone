@@ -44,7 +44,7 @@ Se usará **Docker** para empaquetar y ejecutar los diferentes componentes del p
 - Uso de **Dockerfile y Docker-Compose** para orquestar múltiples servicios del proyecto y gestionar la comunicación entre ellos.  
 - **Archivo `.env`** para centralizar variables de entorno como credenciales, configuraciones de puertos y rutas de acceso.
 - **Metodología CI/CD** para garantizar el flujo de trabajo y la continuidad del proyecto en cada etapa del ciclo de vida del desarrollo.
-- **Beneficios:** Entornos reproducibles, despliegue rápido y aislamiento entre servicios.  
+- **Beneficios:** Entornos reproducibles, fácilmente escalables, despliegue rápido y aislamiento entre servicios.  
 
 ---
 
