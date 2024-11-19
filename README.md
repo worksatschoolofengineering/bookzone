@@ -1,23 +1,40 @@
 # BookZone
 
+## **Descripción del Proyecto**  
+**BookZone** es una bookstore en línea diseñada para ofrecer una experiencia de compra de libros moderna, accesible y personalizada. A través de su interfaz intuitiva y funcionalidades avanzadas, busca facilitar el acceso a la lectura y promover la cultura.  
+
+---
+
 ## **Objetivo General**  
-Desarrollar una plataforma de comercio electrónico innovadora que promueva la lectura y el acceso a la cultura, ofreciendo una experiencia de compra personalizada y eficiente.  
+Desarrollar una plataforma de comercio electrónico especializada en libros, con una experiencia de compra eficiente, segura y adaptable a las necesidades de los usuarios.  
 
 ---
 
 ## **Objetivos Específicos**  
-1. Crear una plataforma intuitiva que facilite la adquisición de libros de forma rápida y sencilla.  
-2. Ofrecer un catálogo diverso de títulos en formatos físico y digital, adaptado a diferentes perfiles de lectores.  
-3. Implementar sistemas de pago seguros y flexibles, incluyendo opciones como pago contra entrega, para generar confianza en los usuarios.  
+1. Crear una plataforma de fácil uso para la búsqueda y compra de libros.  
+2. Ofrecer un catálogo variado de títulos en formatos físicos y digitales.  
+3. Garantizar transacciones seguras y flexibles mediante pasarelas de pago modernas.  
 
 ---
 
-## **Planteamiento del Proyecto**  
-**BookZone** será una librería en línea que revolucionará la forma de adquirir libros mediante una experiencia de compra cómoda, eficiente y personalizada.  
-La plataforma contará con un diseño intuitivo y funcionalidades avanzadas para:  
-- Realizar búsquedas básicas y avanzadas.  
-- Consultar información detallada sobre cada libro, incluyendo sinopsis, datos del autor, disponibilidad y reseñas.  
-- Ofrecer opciones de compra segura a través de múltiples métodos de pago.  
+## **Stack Tecnológico**  
+
+### **Frontend**  
+- **Next.js:** Framework para React que permite renderizado del lado del servidor (SSR) y generación de sitios estáticos.  
+- **HTML5 y CSS3:** Estructura y estilo base de las interfaces.  
+- **Tailwind CSS:** Framework de diseño para un desarrollo rápido y responsive.  
+- **Redux:** Gestión del estado de la aplicación.  
+
+### **Backend**  
+- **Servidor:** Nginx para manejar el tráfico y gestionar solicitudes al backend.  
+- **Framework Principal:** WordPress Core para la creación de la API y administración de contenido.  
+- **Base de Datos:**  
+  - **MariaDB:** Base de datos robusta y escalable.  
+  - **phpMyAdmin:** Interfaz de gestión de la base de datos integrada.  
+- **Lenguaje:** PHP (última versión estable) como principal para el desarrollo backend.  
+- **Herramientas de Administración:** WPCLI para manejar WordPress desde la consola y administrar configuraciones del proyecto.  
+- **Pasarelas de Pago:**  
+  - **WooCommerce y Strapi:** Implementación de pasarelas para procesar pagos de forma segura y flexible.  
 
 ---
 
@@ -47,7 +64,7 @@ La plataforma contará con un diseño intuitivo y funcionalidades avanzadas para
 ---
 
 ## **Metodología de Desarrollo**  
-Se empleará **Scrum**, gracias a su flexibilidad y enfoque iterativo, con ciclos de trabajo (sprints) de dos semanas para:  
+Se empleará **Scrum**, con ciclos de trabajo (sprints) de dos semanas para:  
 - Adaptarse a cambios en los requisitos.  
 - Priorizar funcionalidades clave.  
 - Mejorar continuamente a través de reuniones y retrospectivas.  
@@ -59,13 +76,12 @@ Se empleará **Scrum**, gracias a su flexibilidad y enfoque iterativo, con ciclo
 | **Sprint**        | **Semanas**   | **Objetivo**                                              | **Tareas**                                                                                                 |  
 |-------------------|---------------|-----------------------------------------------------------|-----------------------------------------------------------------------------------------------------------|  
 | **Sprint 1**      | 46-47         | Diseño y planificación inicial                            | Recolección de requisitos, diseño de arquitectura, wireframes, planificación de pruebas                  |  
-| **Sprint 2**      | 48-49         | Desarrollo del frontend (interfaces básicas)              | Desarrollo de la interfaz de registro y búsqueda básica (HTML, CSS, JS)                                  |  
+| **Sprint 2**      | 48-49         | Desarrollo del frontend (interfaces básicas)              | Desarrollo de la interfaz de registro y búsqueda básica (Next.js, Tailwind CSS)                          |  
 | **Sprint 3**      | 50-51         | Desarrollo del frontend (interfaces detalladas)           | Desarrollo de la interfaz del detalle de libros y carrito de compras                                     |  
-| **Sprint 4**      | 52-53         | Backend e integración                                     | Implementación de API, lógica de negocio, integración frontend-backend, pruebas de integración           |  
+| **Sprint 4**      | 52-53         | Backend e integración                                     | Implementación de APIs con WordPress Core, integración frontend-backend, pruebas de integración           |  
 | **Sprint 5**      | 54-55         | Pruebas y puesta en marcha                                | Pruebas exhaustivas de funcionalidad y rendimiento; preparación para el lanzamiento                      |  
 
 ---
 
 ## **Licencia**  
 Este proyecto está bajo la Licencia MIT.  
-
