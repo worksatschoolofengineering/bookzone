@@ -1,0 +1,25 @@
+Sitio Wordpress:
+
+user: bookzone_admin
+Psswd: bookzone_123456
+
+PhpMyAdmin:
+
+user: bookzone
+Psswd: bookzone123
+DBPsswd: bookzone123456
+
+
+Primeros pasos despues de la instalación:
+
+ls -ld /home/square/bookzone
+
+sudo usermod -aG www-data square
+
+sudo chown -R square:square /home/square/bookzone
+
+
+
+http://localhost:8000/wp-admin 
+
+
