@@ -4,6 +4,9 @@
 **BookZone** es una bookstore en línea diseñada para ofrecer una experiencia de compra de libros moderna, accesible y personalizada. A través de su interfaz intuitiva y funcionalidades avanzadas, busca facilitar el acceso a la lectura y promover la cultura.  
 
 ---
+![01](https://github.com/user-attachments/assets/a037d7d0-5492-4deb-b61d-3209f5c07247)
+
+
 
 ## **Objetivo General**  
 Desarrollar una plataforma de comercio electrónico especializada en libros, con una experiencia de compra eficiente, segura y adaptable a las necesidades de los usuarios.  
